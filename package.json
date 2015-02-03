@@ -1,0 +1,30 @@
+{
+  "name": "honeybee",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Honey Bee",
+  "keywords": ["honeybee","node.js"],
+  "main": "./lib/index.js",
+  "dependencies": {
+    "cheerio": "latest",
+    "request": "latest"
+  },
+  "scripts": {
+    "test": "mocha -b",
+    "prepublish": "npm prune"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JerryYangJin/honeybee.git"
+  },
+  "devDependencies": {
+    "should": "3.3.1",
+    "mocha": "2.1.0"
+  },
+  "author": "Jerry Yang Jin",
+  "license": "MIT"
+}
