@@ -30,3 +30,5 @@ npm-debug.log
 nbproject
 .idea
 .node_history
+local.js
+dom.html

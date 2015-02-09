@@ -1,9 +1,11 @@
 var should = require('should');
 
-var honeybee = require('..');
+var honeybee = require('../');
 
 describe('honeybee', function() {
-  it('should return html', function(){
-    honeybee.apple();
-  });
+  describe('collect',function() {
+    it('should return a promise', function(){
+
+    });
+  })
 });

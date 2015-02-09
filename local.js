@@ -1,2 +1,5 @@
+var fs = require('fs');
 var h = require('./');
-h.apple();
+h.collect().then(function(result){
+  fs.writeFile('./test/dom.html',result);
+});

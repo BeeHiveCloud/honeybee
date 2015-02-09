@@ -6,9 +6,11 @@
   "keywords": ["honeybee","node.js"],
   "main": "./lib/index.js",
   "dependencies": {
-    "cheerio": "latest",
-    "request": "latest",
-    "sanitize-html": "latest"
+    "bluebird": "2.9.7",
+    "cheerio": "0.18.0",
+    "request": "2.53.0",
+    "sanitize-html": "1.5.3",
+    "html-minifier": "0.7.0"
   },
   "scripts": {
     "test": "mocha -b",
