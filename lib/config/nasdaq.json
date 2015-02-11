@@ -1,0 +1,7 @@
+{
+  "domain":"nasdaq.com",
+}
+
+http://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nasdaq&render=download
+
+http://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nyse&render=download

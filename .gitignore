@@ -28,4 +28,5 @@ nbproject
 .idea
 .node_history
 local.js
-dom.html
+test/dom.html
+doc

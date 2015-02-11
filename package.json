@@ -10,11 +10,13 @@
     "cheerio": "0.18.0",
     "request": "2.53.0",
     "sanitize-html": "1.5.3",
-    "html-minifier": "0.7.0"
+    "html-minifier": "0.7.0",
+    "URIjs":"1.14.1"
   },
   "scripts": {
     "test": "mocha -b",
-    "prepublish": "npm prune"
+    "prepublish": "npm prune",
+    "doc": "jsdox -A -o doc lib"
   },
   "directories": {
     "lib": "lib"
@@ -25,7 +27,8 @@
     "url": "git://github.com/BeeHiveCloud/honeybee.git"
   },
   "devDependencies": {
-    "should": "3.3.1",
+    "chai": "1.9.2",
+    "chai-as-promised": "4.1.1",
     "mocha": "2.1.0"
   },
   "engines": {

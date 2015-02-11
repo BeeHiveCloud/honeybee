@@ -1,7 +1,11 @@
 Honey Bee
 =========
 
-
+Usage
+-----
+```sh
+npm install honeybee.js
+```
 
 License
 -------

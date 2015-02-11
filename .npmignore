@@ -1,0 +1,15 @@
+*#
+node_modules
+ssl
+.DS_STORE
+*.swo
+*.swp
+*.swn
+*.swm
+*~
+.idea
+nbproject
+.git
+.gitignore
+test
+local.js

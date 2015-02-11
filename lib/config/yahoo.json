@@ -1,0 +1,23 @@
+{
+  "protocol":"http",
+  "domain":"yahoo.com",
+  "finance":{
+    "subdomain": "finance",
+    "directory": "q",
+    "sanitize":true,
+    "minify":true,
+    "report":{
+      "selector":"#yfncsumtab tr:nth-child(2) table:nth-child(2) td",
+      "query":"s",
+      "balancesheet":{
+        "filename":"bs"
+      },
+      "cashflow":{
+        "filename":"cf"
+      },
+      "incomestatement":{
+        "filename":"is"
+      }
+    }
+  }
+}
