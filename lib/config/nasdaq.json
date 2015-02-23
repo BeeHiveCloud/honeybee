@@ -1,27 +1,13 @@
 {
   "protocol":"http",
   "domain":"nasdaq.com",
-  "subdomain": "www",
-  "directory": "screening",
-  "company":{
+  "companies":{
+    "subdomain": "www",
+    "directory": "screening",
+    "category":"csv",
     "filename":"companies-by-name.aspx",
-    "query":{
-      "letter":0,
-      "render":"download"
-      },
-    "nasdaq":{
-      "query":{
-        "exchange":"nasdaq"
-        }
-    },
-    "nyse":{
-      "query":{
-        "exchange":"nyse"
-        }
-    }
+    "query":{"letter":0,"render":"download"},
+    "nasdaq":{"query":{ "exchange":"nasdaq"}},
+    "nyse":{ "query":{  "exchange":"nyse"}}
   }
 }
-
-http://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nasdaq&render=download
-
-http://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nyse&render=download

@@ -4,7 +4,7 @@ A lightweight web scraper
 
 Status
 ------
-Early stage, not properly tested yet
+This project is at early stage, it's not properly tested yet
 
 Configuration
 -------------

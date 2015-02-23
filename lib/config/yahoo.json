@@ -5,7 +5,7 @@
     "subdomain": "finance",
     "directory": "q",
     "query":{"s":"~1"},
-    "output":"table",
+    "category":"html",
     "report":{
       "selector":"#yfncsumtab tr:nth-child(2) table:nth-child(2) td",
       "balancesheet":{"filename":"bs"},
