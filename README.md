@@ -27,12 +27,12 @@ Honeybee reads a json config object to understand how to collect an entity. The 
   }
 }
 ```
-Variables can be used in the config object, like '~1', which will be replaced by query arguments list in order.
+Variables can be used in the config object, like '~1', which will be replaced by [target](#target) arguments list in order.
 var# should be set according to config object hierachy.
 
 Target
 ------
-Target is a json path in the config object to locate the entity to be collected. Example: ```yahoo.finance.report.incomestatement```
+Target is a json path in the [configration](#configuration) object to locate the entity to be collected. Example: ```yahoo.finance.report.incomestatement```
 Honeybee will read the target and load the configuration to extract uri to send request and selector to parse the response.
 
 
