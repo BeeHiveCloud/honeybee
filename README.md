@@ -1,6 +1,10 @@
-Honey Bee
+Honey Bee [![npm version](https://badge.fury.io/js/honeybee.js.svg)](http://badge.fury.io/js/honeybee.js) [![Build Status](https://travis-ci.org/BeeHiveCloud/honeybee.svg)](https://travis-ci.org/BeeHiveCloud/honeybee)
 =========
 A lightweight web scraper
+
+Status
+------
+Early stage, not properly tested yet
 
 Configuration
 -------------

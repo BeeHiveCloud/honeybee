@@ -1,7 +1,7 @@
 {
   "name": "honeybee.js",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Honey Bee",
   "keywords": ["honeybee","node.js"],
   "main": "./lib/index.js",
@@ -21,7 +21,6 @@
   "directories": {
     "lib": "lib"
   },
-
   "repository": {
     "type": "git",
     "url": "git://github.com/BeeHiveCloud/honeybee.git"
@@ -36,7 +35,7 @@
       "npm": ">= 1.4.0"
   },
   "bugs": {
-        "url": "http://github.com/BeeHiveCloud/honeybee/issues"
+        "url": "https://github.com/BeeHiveCloud/honeybee/issues"
   },
   "author": "Jerry Yang Jin",
   "license": "MIT"

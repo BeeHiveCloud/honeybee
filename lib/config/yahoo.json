@@ -4,13 +4,25 @@
   "finance":{
     "subdomain": "finance",
     "directory": "q",
+    "query":{"s":"~1"},
+    "output":"table",
     "report":{
       "selector":"#yfncsumtab tr:nth-child(2) table:nth-child(2) td",
-      "output":"table",
-      "query":{"s":"~1"},
       "balancesheet":{"filename":"bs"},
       "cashflow":{"filename":"cf"},
       "incomestatement":{"filename":"is"}
+    },
+    "profile":{
+      "filename":"pr",
+      "selector":".yfnc_datamodoutline1 table"
+    },
+    "statistics":{
+      "filename":"ks",
+      "selector":".yfnc_datamodoutline1 table"
+    },
+    "components":{
+      "filename":"ct",
+      "selector":".yfnc_tableout1 table"
     }
   }
 }
