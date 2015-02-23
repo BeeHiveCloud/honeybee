@@ -6,6 +6,7 @@
     "directory": "q",
     "report":{
       "selector":"#yfncsumtab tr:nth-child(2) table:nth-child(2) td",
+      "output":"table",
       "query":{"s":"~1"},
       "balancesheet":{"filename":"bs"},
       "cashflow":{"filename":"cf"},

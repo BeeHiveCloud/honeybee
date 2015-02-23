@@ -1,10 +1,45 @@
 Honey Bee
 =========
+A lightweight web scraper
+
+Configuration
+-------------
+Honeybee reads a json config object to understand how to collect an entity. The config object contains information like uri, selector etc, and it's organized by domain/entity hierarchy. Example:
+
+```javascript
+{
+  "protocol":"http",
+  "domain":"yahoo.com",
+  "finance":{
+    "subdomain": "finance",
+    "directory": "q",
+    "report":{
+      "selector":"#yfncsumtab tr:nth-child(2) table:nth-child(2) td",
+      "query":{"s":"~1"},
+      "balancesheet":{"filename":"bs"},
+      "cashflow":{"filename":"cf"},
+      "incomestatement":{"filename":"is"}
+    }
+  }
+}
+```
+Variables can be used in the config object, like '~1', which will be replaced by query arguments list in order.
+var# should be set according to config object hierachy.
+
+Target
+------
+Target is a json path in the config object to locate the entity to be collected. Example: ```yahoo.finance.report.incomestatement```
+Honeybee will read the target and load the configuration to extract uri to send request and selector to parse the response.
+
 
 Usage
 -----
-```sh
-npm install honeybee.js
+```javascript
+var honeybee = require('honeybee.js');
+honeybee.target('yahoo.finance.report.incomestatement','FB');
+honeybee.collect().then(function(result){
+   fs.writeFile('dom.html',result);
+ });
 ```
 
 License
