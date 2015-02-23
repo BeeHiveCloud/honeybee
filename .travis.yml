@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+notifications:
+  email:
+    - beehivecloud@gmail.com
+
+# whitelisted branches
+branches:
+  only:
+    - master
+    - stable
+    - beta
